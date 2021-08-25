@@ -5,9 +5,10 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Tubumu.Mediasoup.AspNetCore</PackageId>
-    <Version>3.0.0</Version>
+    <Version>3.1.0</Version>
     <Authors>Alby</Authors>
     <Company>Tubumu</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <RepositoryUrl>https://github.com/albyho/Tubumu.Mediasoup.AspNetCore</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
@@ -30,4 +31,7 @@
     <ProjectReference Include="..\Tubumu.Mediasoup\Tubumu.Mediasoup.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
