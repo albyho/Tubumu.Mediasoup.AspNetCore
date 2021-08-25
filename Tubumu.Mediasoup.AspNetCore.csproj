@@ -13,9 +13,12 @@
     <RepositoryUrl>https://github.com/albyho/Tubumu.Mediasoup.AspNetCore</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
 
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
